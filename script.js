@@ -19,7 +19,7 @@ const listaCategorias = [
     '!@#$%^&*()_+-=[]{}|;:,.<>?'  
 ];
 
-// Função para exibir mensagens de erro ou sucesso
+
 function exibirMensagem(texto, tipo) {
     mensagem.textContent = texto;
     mensagem.className = 'mensagem ' + tipo;
@@ -27,7 +27,7 @@ function exibirMensagem(texto, tipo) {
 
 
 function gerarSenha() {
-    // Limpa mensagens anteriores
+    
     exibirMensagem('', '');
 
     const tamanho = Number(campoTamanho.value);
